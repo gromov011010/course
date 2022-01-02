@@ -17,3 +17,4 @@ const a = prompt('Последний фильм?', ''),
       personalDB.movies[c]=d;
       
       console.log(personalDB);
+      console.log("a");
