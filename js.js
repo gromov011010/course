@@ -1,19 +1,8 @@
-const numFilms = +prompt('Сколько фильмов глянул?', '');
+ "use strict";
+alert("Приготовься сейчас будут вопросы!!");
+ let name = prompt("Как тебя зовут?",""),
+     yers = prompt("Сколько тебе лет?",""),
+     longDick = prompt(" Сколько сантиметров член?", "");
 
-const personalDB= {
-     count: numFilms,
-     movies: {},
-     actors: {},
-     genres: [],
-     private: false
-};
-
-const a = prompt('Последний фильм?', ''),
-      b = prompt('На сколько оценишь?', ''),
-      c = prompt('Последний фильм?', ''),
-      d = prompt('На сколько оценишь?', '');
-
-      personalDB.movies[a]=b;
-      personalDB.movies[c]=d;
-      
-      console.log(personalDB);
+let answers = [name,yers,longDick];
+console.log(answers);
